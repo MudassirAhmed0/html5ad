@@ -13,8 +13,8 @@ setInterval(() => {
     overlay.classList.add("hidden");
     slides.forEach((slide, slideIndex) => {
       if (slideIndex == lastSlide) {
-        const content = slide.querySelector(".ad-content")
-          ? slide.querySelector(".ad-content")
+        const content = slide.querySelector(".ad-content-ha-bhai")
+          ? slide.querySelector(".ad-content-ha-bhai")
           : slide.querySelector(".ad-content-last-slide");
         content.classList.add("hidden");
         setTimeout(() => {
